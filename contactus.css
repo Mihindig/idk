@@ -1,0 +1,146 @@
+
+body {
+    background-image: url('https://raw.githubusercontent.com/Mihindig/assignment/main/bca49dfa-d296-459c-8a6f-53b265d57bd2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1300px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.form-container, .info-section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    min-width: 400px;
+}
+
+h1 {
+    font-size: 26px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="date"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.gender-options, .contact-method {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+textarea {
+    font-size: 14px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+}
+
+.reset-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.info-section {
+    font-size: 18px;
+    color: #333;
+}
+
+.info-section p {
+    margin-bottom: 15px;
+}
+
+.info-section strong {
+    color: #2980b9;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-container, .info-section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    label, input, textarea, button {
+        font-size: 14px;
+    }
+}

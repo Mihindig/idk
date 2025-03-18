@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Contact & Information</title>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-container">
+            <h1>Contact Us</h1>
+            <form action="#">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday" name="birthday" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="contact-number">Contact Number</label>
+                <input type="text" id="contact-number" name="contact-number" required>
+
+                <label>Gender</label>
+                <div class="gender-options">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <label for="age">Age</label>
+                <input type="text" id="age" name="age" required>
+
+                <label>Preferred Contact Method</label>
+                <div class="contact-method">
+                    <input type="checkbox" id="email-contact" name="contact-method" value="email">
+                    <label for="email-contact">Email</label>
+
+                    <input type="checkbox" id="call-contact" name="contact-method" value="call">
+                    <label for="call-contact">Call</label>
+
+                    <input type="checkbox" id="text-contact" name="contact-method" value="text">
+                    <label for="text-contact">Text</label>
+                </div>
+
+                <label for="feedback">Your Feedback</label>
+                <textarea id="feedback" name="feedback" rows="5" placeholder="Share your experience..."></textarea>
+
+                <div class="form-buttons">
+                    <button type="reset" class="reset-btn">Reset</button>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="info-section">
+            <h1>Restaurant Contact Information</h1>
+            <p><strong>Address:</strong> Via Roma 12, Florence</p>
+            <p><strong>Phone:</strong> +39 055 123 4567</p>
+            <p><strong>Email:</strong> info@restaurantflorence.it</p>
+            <p><strong>Operating Hours:</strong> Mon-Sun: 9:00 AM - 11:00 PM</p>
+        </div>
+    </div>
+</body>
+</html>
+
+

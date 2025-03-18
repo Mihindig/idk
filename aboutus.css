@@ -1,0 +1,89 @@
+body {
+    background-image: url('https://raw.githubusercontent.com/Mihindig/assignment/main/bca49dfa-d296-459c-8a6f-53b265d57bd2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.about-section {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #333;
+}
+
+.about-section h1 {
+    font-family: 'San', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+
+.about-section h2, .about-section h3 {
+    font-family: 'Sans-serif', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+.about-section p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-section ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    margin: 5px 0;
+}
+
+.about-section .left-side, .about-section .right-side {
+    width: 48%;
+    float: left;
+    margin: 10px 1%;
+}
+
+.about-section .center-bottom {
+    clear: both;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about-section .locations {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
